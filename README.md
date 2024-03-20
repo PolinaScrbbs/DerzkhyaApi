@@ -24,17 +24,17 @@ ___
 _______
 
 ### Для работы с запросами:
-* #### Регистрация (http://127.0.0.1:8000/DerzkhyaApi/auth-signup/)
+* #### Регистрация (https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/auth-signup/)
     * ##### Передать все нужные параметры
-* #### Авторизация (http://127.0.0.1:8000/DerzkhyaApi/auth-login/):
+* #### Авторизация (https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/auth-login/):
     * ##### Передать все нужные параметры
-* #### Получение списка билетов (http://127.0.0.1:8000/DerzkhyaApi/tikets/?token=user_token):
+* #### Получение списка билетов (https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/tikets/?token=user_token):
     ```json
     {
         "token": "user_token",
     }
     ```
-* #### Создание билета (http://127.0.0.1:8000/DerzkhyaApi/tikets/?token=user_token):
+* #### Создание билета (https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/tikets/?token=user_token):
     ```json
     {
         "token": "user_token",
@@ -42,14 +42,14 @@ _______
     ```
     > Далее идут все поля для билета, для создания билета
 * #### Запросы для отдельных билетов:
-    * #### GET(http://127.0.0.1:8000/DerzkhyaApi/tiket/?token=user_token):
+    * #### GET(https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/tiket/?token=user_token):
         ```json
         {
             "token": "user_token",
             "id": "tiket_id"
         }
         ```
-    * #### PUT(http://127.0.0.1:8000/DerzkhyaApi/tiket/?token=user_token):
+    * #### PUT(https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/tiket/?token=user_token):
         ```json
         {
             "token": "user_token",
@@ -64,7 +64,7 @@ _______
             "price": 2500
         }
         ```
-    * #### DELETE(http://127.0.0.1:8000/DerzkhyaApi/tiket/?token=user_token):
+    * #### DELETE(https://derzkhyaapi.pythonanywhere.com/DerzkhyaApi/tiket/?token=user_token):
         ```json
         {
             "token": "user_token",
